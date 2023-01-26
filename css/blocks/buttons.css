@@ -1,0 +1,49 @@
+.button {
+  display: inline-block;
+  padding: 5px 33px 11px;
+
+  background-color: #f72464;
+  box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+  border-radius: 4px;
+
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.2s ease-in;
+}
+.button:hover {
+  background-color: #fd4ba7;
+  box-shadow: 0px 4px 25px rgba(155, 16, 58, 0.601);
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+.button-outline {
+  display: inline-block;
+  padding: 10px 40px 11px;
+
+  background: #ffffff;
+  border: 1px solid #f72464;
+  border-radius: 4px;
+
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #777777;
+  transition: 0.2s ease-in;
+}
+
+.button-outline:hover {
+  background-color: #f72464;
+  color: #fff;
+}
