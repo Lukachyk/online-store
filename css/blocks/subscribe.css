@@ -1,16 +1,13 @@
 .subcribe-form {
   display: flex;
-  justify-content: center;
-}
-.subcribe-form > * + * {
-  margin-left: 10px;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .subcribe-form__input {
   padding-left: 10px;
   padding-right: 10px;
   height: 42px;
-  width: 230px;
   background: #ffffff;
   border: 1px solid #f72464;
   border-radius: 4px;
@@ -21,6 +18,9 @@
   font-size: 16px;
   line-height: 1;
   color: #000;
+}
+.subcribe-form > * + * {
+  margin-top: 10px;
 }
 
 .subcribe-form__input::placeholder {
@@ -44,4 +44,19 @@
 .subcribe-form__submit:hover {
   background-color: #fd4ba7;
   box-shadow: 0px 2px 15px rgba(155, 16, 58, 0.601);
+}
+
+@media (min-width: 540px) {
+  .subcribe-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .subcribe-form__input {
+    width: 230px;
+  }
+  .subcribe-form > * + * {
+    margin-top: 0;
+    margin-left: 10px;
+  }
 }

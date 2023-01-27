@@ -4,8 +4,18 @@
   margin-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   row-gap: 40px;
+  column-gap: 30px;
+
+  max-width: 570px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1200px) {
+  .products-wrapper {
+    max-width: 100%;
+  }
 }
 
 .product-link {

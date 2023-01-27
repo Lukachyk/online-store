@@ -1,10 +1,10 @@
 @import "./reset.css";
 @import "./blocks/base.css";
 @import "./blocks/nav.css";
+@import "./blocks/menu-icon.css";
 @import "./blocks/buttons.css";
 
 @import "./blocks/header.css";
-@import "./blocks/featured.css";
 @import "./blocks/header.css";
 @import "./blocks/product.css";
 @import "./blocks/section-header.css";
